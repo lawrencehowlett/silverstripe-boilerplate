@@ -1,0 +1,24 @@
+---
+Name: mysite
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+# YAML configuration for SilverStripe
+# See http://doc.silverstripe.org/framework/en/topics/configuration
+# Caution: Indentation through two spaces, not tabs
+SSViewer:
+  theme: 'boatsibiza'
+
+BetterButtonsActions:
+  edit:
+    Button_Delete: false
+
+BetterButtonsUtils:
+  edit:
+    Button_New: false
+  versioned_edit:
+    Button_New: false
+
+Director:
+  environment_type: 'dev'
